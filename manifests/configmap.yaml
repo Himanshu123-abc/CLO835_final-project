@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: project
+data:
+  STUDENT_NAME: "himanshu and ranjan"
+  BG_IMAGE_URL: "s3://project-hp/image.png"
+  DBHOST: "mysql-service"
+  DATABASE: "employees"
+  DBPORT: "3306"
+  APP_COLOR: "blue"
